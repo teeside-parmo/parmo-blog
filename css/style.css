@@ -55,9 +55,6 @@ body{
 .article-card:hover{
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
-.article-caption{
-  font-size: 12px;
-}
 #button-article{
   padding: 5px 15px;
   background-color: #000;
