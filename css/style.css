@@ -1,6 +1,5 @@
 body{
-  font-family: 'Poppins', sans-serif;
-  font-size: 14px;
+  font: 14px 'Poppins', sans-serif;
 }
 .container{
   display:grid;
@@ -25,26 +24,24 @@ body{
 }
 /* Header Area */
 .header-box{
-  grid-area:hd;
+  grid-area: hd;
 }
 .title-heading{
-  font-size: 2em;
   color: #333;
-  font-family: 'Poppins', sans-serif;
-  text-align: center; 
+  font: 2em 'Poppins', sans-serif;
+  text-align: center;
 }
 .top-nav{
   padding: 5px 5%;
   background-color: #333;
 }
 .top-nav-menu{
-  font-size: 14px;
+  display: flex;
   color: #fff;
-  font-family: 'Poppins', sans-serif;
+  font: 14px 'Poppins', sans-serif;
   text-decoration: none;
   list-style-type: none;
   margin: 5px;
-  display: flex;
   gap: 5%;
   justify-content: center;
   padding: 0 15px;
