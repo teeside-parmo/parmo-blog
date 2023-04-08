@@ -1,7 +1,6 @@
 .container{
     display:grid;
-    grid-template-columns: 300px 300px 300px;
-    grid-template-rows: 250px 600px;
+    grid-template-columns: 50% 50%;
     grid-template-areas: 
     "hd"
     "con"
@@ -47,7 +46,6 @@
 container{
     display:grid;
     grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows: 250px 600px;
     grid-template-areas: 
     "hd hd hd hd hd hd hd hd"
     "con con con con con con con con"
