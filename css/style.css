@@ -2,11 +2,10 @@
     font-size: 2em;
     color: #333;
     font-family: 'Poppins', sans-serif;
-    text-align: center;
-    margin: 0 auto;
+    text-align: center; 
 }
 .top-nav {
-    padding: 20px 5%;
+    padding: 5px 5%;
     background-color: #333;
     width: 100%;
 }
@@ -15,9 +14,10 @@
     color: #fff;
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
-}
-.top-nav-menu {
+    list-style-type: none;
+    margin: 5px;
     display: flex;
+    gap: 5%;
     justify-content: center;
     padding: 0 15px;
 }
