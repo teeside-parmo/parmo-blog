@@ -15,6 +15,7 @@ body{
 .footer{
   grid-area: ft; 
   justify-content: center;
+  background-color: #333;
 }
 .content{
   grid-area: con;
@@ -62,6 +63,10 @@ body{
   background-color: #fff;
   color: #333;
 }
+.footer-text {
+  text-align: center;
+  color: #fff;
+}
 @media (min-width:900px){
 .container{
   display:grid;
@@ -74,7 +79,7 @@ body{
 .content {
   padding: 20px 20px;
   grid-area: con;
-  grid-template-columns: 20% 20% 20%;
+  grid-template-columns: 25% 25% 25%;
   display: grid;
   grid-gap: 2%;
   justify-content: center;
