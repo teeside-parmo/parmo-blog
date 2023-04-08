@@ -1,5 +1,5 @@
 body{
-  font-family: 'Poppins'; sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 .container{
   display:grid;
@@ -45,14 +45,17 @@ body{
   justify-content: center;
   padding: 0 15px;
 }
-.article-card {
+.article-card{
   border: #efefef solid 1px;
   padding: 10px 20px;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
 }
-.article-card:hover {
+.article-card:hover{
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.article-caption{
+  font-size: 12px;
 }
 #button-article{
   padding: 5px 15px;
@@ -62,11 +65,11 @@ body{
   border: #000 1px solid;
   font-family: inherit;
 }
-#button-article:hover {
+#button-article:hover{
   background-color: #fff;
   color: #333;
 }
-.footer-text {
+.footer-text{
   text-align: center;
   color: #fff;
 }
@@ -79,7 +82,7 @@ body{
   "con con con con con con con con"
   "ft ft ft ft ft ft ft ft";
 }
-.content {
+.content{
   padding: 20px 20px;
   grid-area: con;
   grid-template-columns: 25% 25% 25%;
