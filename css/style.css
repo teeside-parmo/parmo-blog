@@ -13,7 +13,10 @@ body{
   grid-area:hd;
 }
 .footer{
-  grid-area: ft; 
+  display: grid;
+  grid-area: ft;
+  margin-top: 50px;
+  padding: 20px;
   justify-content: center;
   background-color: #333;
 }
