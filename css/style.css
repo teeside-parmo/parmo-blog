@@ -10,9 +10,7 @@ body{
   "con"
   "ft";
 }
-.header-box{
-  grid-area:hd;
-}
+/* Footer */
 .footer{
   display: grid;
   grid-area: ft;
@@ -21,9 +19,13 @@ body{
   justify-content: center;
   background-color: #333;
 }
-.content{
-  grid-area: con;
+.footer-text{
   text-align: center;
+  color: #fff;
+}
+/* Header Area */
+.header-box{
+  grid-area:hd;
 }
 .title-heading{
   font-size: 2em;
@@ -49,6 +51,11 @@ body{
   text-align: center;
   align-items: center;
 }
+/* Main Content Area */
+.content{
+  grid-area: con;
+  text-align: center;
+}
 .article-card{
   margin: 15px 10px;
   border: #efefef solid 1px;
@@ -71,10 +78,6 @@ body{
   background-color: #fff;
   color: #333;
 }
-.footer-text{
-  text-align: center;
-  color: #fff;
-}
 @media (min-width:900px){
 .container{
   display:grid;
@@ -92,5 +95,11 @@ body{
   display: grid;
   grid-gap: 2%;
   justify-content: center;
+  }
+}
+@media(min-width: 600px) and (max-width: 900px){
+  .content {
+    display: grid;
+    grid-template-columns: 50% 50%;
   }
 }
