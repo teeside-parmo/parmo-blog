@@ -1,4 +1,12 @@
 /* Main Content Area */
+.container{
+  display:grid;
+  grid-template-columns: 100%;
+  grid-template-areas: 
+  "hd"
+  "con"
+  "ft";
+}
 .content{
   grid-area: con;
   text-align: center;
