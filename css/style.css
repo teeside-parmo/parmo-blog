@@ -4,6 +4,7 @@
 body{
   font: 14px 'Poppins', sans-serif;
 }
+
 .container{
   display:grid;
   grid-template-columns: 100%;
@@ -12,7 +13,9 @@ body{
   "con"
   "ft";
 }
+
 /* Footer */
+
 .footer{
   display: grid;
   grid-area: ft;
@@ -21,23 +24,29 @@ body{
   justify-content: center;
   background-color: #333;
 }
+
 .footer-text{
   text-align: center;
   color: #fff;
 }
+
 /* Header */
+
 .header-box{
   grid-area: hd;
 }
+
 .title-heading{
   color: #333;
   font: 2em 'Poppins', sans-serif;
   text-align: center;
 }
+
 .top-nav{
   padding: 5px 5%;
   background-color: #333;
 }
+
 .top-nav-menu{
   display: flex;
   color: #fff;
@@ -51,10 +60,12 @@ body{
   text-align: center;
   align-items: center;
 }
+
 .top-nav-menu > a {
   color: #fff;
   text-decoration: none;
 }
+
 .top-nav-menu > a:hover {
   text-decoration: underline;
 }
