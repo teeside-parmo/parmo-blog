@@ -88,7 +88,7 @@ body{
   "ft ft ft ft ft ft ft ft";
 }
 .content{
-  padding: 20px 20px;
+  padding: 20px 5%;
   text-align: left;
   grid-area: con;
   grid-template-columns: 25% 25% 25%;
