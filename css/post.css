@@ -17,6 +17,7 @@ article {
 }
 
 .content-container {
+  display: grid;
   padding: 10px 5%;
 }
 
