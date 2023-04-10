@@ -84,6 +84,6 @@
   }
   .content-container{
   grid-template-areas: 
-  "con con con con con sd sd sd"
+  "art art art art art sd sd sd"
   }
 }
