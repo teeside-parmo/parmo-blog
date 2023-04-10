@@ -1,0 +1,30 @@
+/* Main Content Area */
+.content{
+  grid-area: con;
+  text-align: center;
+}
+@media (min-width:900px){
+.container{
+  display:grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-areas: 
+  "hd hd hd hd hd hd hd hd"
+  "con con con con con con con con"
+  "ft ft ft ft ft ft ft ft";
+}
+.content{
+  padding: 20px 5%;
+  text-align: left;
+  grid-area: con;
+  grid-template-columns: 25% 25% 25%;
+  display: grid;
+  grid-gap: 2%;
+  justify-content: center;
+  }
+}
+@media(min-width: 600px) and (max-width: 900px){
+  .content {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+}
