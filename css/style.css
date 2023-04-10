@@ -1,5 +1,6 @@
 @import url('index-layout.css');
 @import url('article-cards.css');
+@import url('top-nav.css');
 
 body{
   font: 14px 'Poppins', sans-serif;
