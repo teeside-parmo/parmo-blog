@@ -41,31 +41,3 @@ body{
   font: 2em 'Poppins', sans-serif;
   text-align: center;
 }
-
-.top-nav{
-  padding: 5px 5%;
-  background-color: #333;
-}
-
-.top-nav-menu{
-  display: flex;
-  color: #fff;
-  font: 14px 'Poppins', sans-serif;
-  text-decoration: none;
-  list-style-type: none;
-  margin: 5px;
-  gap: 5%;
-  justify-content: center;
-  padding: 0 15px;
-  text-align: center;
-  align-items: center;
-}
-
-.top-nav-menu > a {
-  color: #fff;
-  text-decoration: none;
-}
-
-.top-nav-menu > a:hover {
-  text-decoration: underline;
-}
