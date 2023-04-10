@@ -8,14 +8,26 @@
   "ft";
 }
 
-.content-article {
+.content-container {
   display: grid;
-  padding: 20px 10%;
   grid-area: con;
+  padding: 20px 10%;
 }
 
-.article-featured-image {
+.article-container {
+  display: grid;
+  grid-area: art;
+}
+
+.sidebar-container {
+  display: grid;
+  grid-area: sd;
+}
+
+/* Featured Image */
+.featured-image-container {
   text-align: center;
+  margin-bottom: 20px;
 }
 
 .featured-image {
@@ -23,6 +35,7 @@
   height: auto;
 }
 
+/* Article Content */
 .article-heading {
   text-align: center;
   font-size: 3em;
@@ -56,4 +69,15 @@
 
 .share-icons {
   display: flex;
+}
+
+@media (min-width:900px){
+.container{
+  display:grid;
+  grid-template-areas: 
+  "hd hd hd hd hd hd hd hd"
+  "con con con con con con con con"
+  "art art art art art sd sd"
+  "ft ft ft ft ft ft ft ft";
+  }
 }
