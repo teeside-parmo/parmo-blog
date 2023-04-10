@@ -61,16 +61,19 @@ article {
 .author-block {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .social-share {
   display: flex;
-  gap: 1%;
+  gap: 10px;
   align-items: center;
+  justify-content: center;
 }
 
 .share-icons {
   display: flex;
+  gap: 10px;
 }
 
 @media (min-width:900px){
