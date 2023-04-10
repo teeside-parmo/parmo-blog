@@ -24,7 +24,7 @@
   padding: 20px 5%;
   text-align: left;
   grid-area: con;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: 30% 30% 30%;
   display: grid;
   grid-gap: 2%;
   justify-content: center;
