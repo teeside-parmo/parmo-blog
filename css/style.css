@@ -48,6 +48,13 @@ body{
   text-align: center;
   align-items: center;
 }
+.top-nav-menu > a {
+  color: #fff;
+  text-decoration: none;
+}
+.top-nav-menu > a:hover {
+  text-decoration: underline;
+}
 /* Main Content Area */
 .content{
   grid-area: con;
