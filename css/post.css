@@ -11,10 +11,7 @@
 }
 
 .content-container {
-  display: grid;
-  grid-area: con;
   padding: 20px 10%;
-  grid-template-columns: 100%;
 }
 
 .article-container {
