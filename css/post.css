@@ -7,6 +7,9 @@
 
 .article-featured-image {
   text-align: center;
+}
+
+.featured-image {
   width: 100%;
   height: auto;
 }
