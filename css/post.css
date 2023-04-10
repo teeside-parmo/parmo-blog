@@ -4,7 +4,7 @@
   grid-template-columns: 100%;
   grid-template-areas: 
   "hd"
-  "con"
+  "fi"
   "art"
   "sd"
   "ft";
@@ -29,6 +29,7 @@
 
 /* Featured Image */
 .featured-image-container {
+  grid-area: fi;
   text-align: center;
   margin-bottom: 20px;
 }
@@ -79,11 +80,8 @@
   display:grid;
   grid-template-areas: 
   "hd hd hd hd hd hd hd hd"
-  "con con con con con con con con"
-  "ft ft ft ft ft ft ft ft";
-  }
-  .content-container{
-  grid-template-areas: 
+  "fi fi fi fi fi fi fi fi"
   "art art art art art sd sd sd"
+  "ft ft ft ft ft ft ft ft";
   }
 }
