@@ -47,3 +47,13 @@
   display: flex;
   align-items: center;
 }
+
+.social-share {
+  display: flex;
+  gap: 1%;
+  align-items: center;
+}
+
+.share-icons {
+  display: flex;
+}
