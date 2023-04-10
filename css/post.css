@@ -1,4 +1,13 @@
 /* Layout */
+.container{
+  display:grid;
+  grid-template-columns: 100%;
+  grid-template-areas: 
+  "hd"
+  "con"
+  "ft";
+}
+
 .content-article {
   display: grid;
   padding: 20px 10%;
