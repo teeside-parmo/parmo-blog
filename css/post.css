@@ -76,6 +76,18 @@ article {
   gap: 10px;
 }
 
+/* Article Body Image */
+.article-image-container {
+  width: 100%;
+  padding: 30px 2%;
+}
+
+.article-img {
+  width: 100%;
+  text-align: center;
+}
+
+/* Responsive CSS */
 @media (min-width:900px){
 .wrapper {
   display: grid;
