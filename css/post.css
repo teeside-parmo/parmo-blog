@@ -1,1 +1,7 @@
-
+.featured-image {
+  text-align: center;
+}
+h1.featured-heading {
+  text-align: center;
+  font-size: 2.5em;
+}
