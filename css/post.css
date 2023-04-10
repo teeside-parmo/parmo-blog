@@ -16,6 +16,10 @@ article {
   padding: 20px 5%;
 }
 
+.content-container {
+  padding: 10px 5%;
+}
+
 .sidebar-container {
   display: grid;
   grid-area: sd;
