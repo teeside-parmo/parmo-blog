@@ -1,7 +1,6 @@
 /* Layout */
 .wrapper{
   display:grid;
-  padding: 20px 10%;
   grid-template-columns: 100%;
   grid-template-areas: 
   "hd"
@@ -11,7 +10,7 @@
   "ft";
 }
 
-.article-container {
+article {
   display: grid;
   grid-area: art;
 }
