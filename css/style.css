@@ -6,15 +6,6 @@ body{
   font: 14px 'Poppins', sans-serif;
 }
 
-.container{
-  display:grid;
-  grid-template-columns: 100%;
-  grid-template-areas: 
-  "hd"
-  "con"
-  "ft";
-}
-
 /* Footer */
 
 .footer{
