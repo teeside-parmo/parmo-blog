@@ -80,7 +80,10 @@
   grid-template-areas: 
   "hd hd hd hd hd hd hd hd"
   "con con con con con con con con"
-  "art art art art art sd sd sd"
   "ft ft ft ft ft ft ft ft";
+  }
+  .content-container{
+  grid-template-areas: 
+  "con con con con con sd sd sd"
   }
 }
