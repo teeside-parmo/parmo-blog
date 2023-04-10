@@ -1,3 +1,4 @@
+/* Layout */
 .content-article {
   display: grid;
   padding: 20px 10%;
@@ -23,7 +24,14 @@
   color: #3e3e3e;
 }
 
+/* Author Social Info */
 .article-author-social {
   display: grid;
   grid-template-columns: 50% 50%;
+  justify-content: center;
+}
+
+.author-details {
+  display: flex;
+  align-items: center;
 }
