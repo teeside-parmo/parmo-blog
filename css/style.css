@@ -1,5 +1,5 @@
-@import “article-cards.css”;
-@import “index-layout.css”;
+@import url('css/index-layout.css');
+@import url('css/article-cards.css');
 
 body{
   font: 14px 'Poppins', sans-serif;
