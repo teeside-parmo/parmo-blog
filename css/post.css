@@ -13,6 +13,7 @@
 article {
   display: grid;
   grid-area: art;
+  padding: 20px 5%;
 }
 
 .sidebar-container {
