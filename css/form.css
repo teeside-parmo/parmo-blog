@@ -1,8 +1,10 @@
 .subscribe-form{
-  grid-template-columns: 1fr; 
+  min-height: 300px;
   place-items: center;
   background: #221C35;
   justify-items: stretch;
+  border-radius: 25px;
+  padding: 30px 20px 50px;
 }
 
 input, button{
@@ -23,8 +25,9 @@ input{
 
 button{
   padding: 0.5em 0.75em;
-  background: #fff; 
+  background: pink; 
   color: #221C35;
+  font-weight: bold;
 }
 
 .subscribe-heading{
