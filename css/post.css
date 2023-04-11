@@ -104,9 +104,10 @@ blockquote p{
 /* Author Social Info */
 .article-author-social{
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 100%;
   justify-content: center;
   padding: 20px 5%;
+  gap: 20px;
 }
 
 .author-block{
@@ -177,5 +178,13 @@ article{
   
 .featured-image-container{
   padding: 20px 10em;
+  }
+  
+ .article-author-social{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  justify-content: center;
+  padding: 20px 5%;
+  gap: 20px;
   }
 }
