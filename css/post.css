@@ -152,14 +152,14 @@ blockquote p{
 }
 
 .img-column1{
-  display: inline-flex;
+  display: flex;
   flex: 20%;
   padding: 15px;
   align-items: center;
 }
 
 .bio-column2{
-  display: inline-flex;
+  display: flex;
   flex: 80%;
   padding: 15px;
   align-items: center;
