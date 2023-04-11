@@ -93,10 +93,11 @@ blockquote p{
 .article-image-container{
   width: 100%;
   padding: 30px 2%;
+  margin: 0;
 }
 
 .article-img{
-  width: 90%;
+  width: 100%;
   text-align: center;
 }
 
