@@ -1,3 +1,6 @@
+@import url('style.css');
+@import url('top-nav.css');
+
 body{
   display: grid; 
   grid-template-columns: 1fr minmax(auto, 30em) 1fr;
