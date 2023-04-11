@@ -220,7 +220,6 @@ blockquote p{
 @media (min-width:900px){
 .wrapper {
   display: grid;
-  padding:
   grid-gap: 20px;
   grid-template-columns: 3fr 1fr;
   grid-template-areas: 
@@ -228,16 +227,6 @@ blockquote p{
     "fi fi"
     "art sd"
     "ft ft";
-}
-@media(min-width: 600px) {
-   .featured-image-container{
-    padding: 0 50px;
-  }
-  article{
-    padding: 0 50px;
-  }
-  .sidebar-container{
-  padding: 0 50px;
   }
 }
   
