@@ -115,6 +115,7 @@ blockquote p{
 
 .author-company{
   color: #301934;
+  font-size: 12px;
 }
 
 /* Article Body Image */
@@ -130,12 +131,19 @@ blockquote p{
 
 /* Latest Posts */
 .latest-post-heading{
-  color: #301934;
+  color: #534582;
   margin-top: 0;
   font-size: 25px;
 }
+
 .latest-post-img{
   max-width: 280px;
+}
+
+.latest-post-title{
+  font-size: 18px;
+  color: #534582;
+  margin-top: 0;
 }
 
 /* Responsive CSS */
