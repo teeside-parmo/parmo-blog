@@ -1,0 +1,21 @@
+/* Latest Posts */
+.sidebar-widgets{
+  display: flex;
+  flex-direction: column;
+}
+
+.latest-post-heading{
+  color: #534582;
+  margin-top: 0;
+  font-size: 25px;
+}
+
+.latest-post-img{
+  width: 100%;
+}
+
+.latest-post-title{
+  font-size: 18px;
+  color: #534582;
+  margin-top: 0;
+}
