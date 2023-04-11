@@ -109,6 +109,11 @@ blockquote p{
   font-size: 20px;
 }
 
+.social-icon-img {
+  width: 3em;
+  height: 3em;
+}
+
 .author-title{
   font-style: italic;
   font-size: 12px;
