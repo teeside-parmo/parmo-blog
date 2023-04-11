@@ -136,6 +136,10 @@ blockquote p{
 }
 
 /* Latest Posts */
+.latest-post-widget{
+  display: flex;
+  flex-direction: column;
+}
 .latest-post-heading{
   color: #534582;
   margin-top: 0;
