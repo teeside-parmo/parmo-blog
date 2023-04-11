@@ -17,11 +17,11 @@
   align-items: center;
 }
 
-.top-nav-menu > a {
+.nav-links{
   color: #fff;
   text-decoration: none;
 }
 
-.top-nav-menu > a:hover {
+.nav-links: hover{
   text-decoration: underline;
 }
