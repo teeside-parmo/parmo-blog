@@ -1,4 +1,7 @@
 @import url('form.css');
+@import url('author-bio-box.css');
+@import url('featured-image.css');
+@import url('latest-posts.css');
 
 /* Layout */
 .wrapper{
@@ -22,19 +25,6 @@ article{
   display: grid;
   grid-area: sd;
   padding: 20px 5%;
-}
-
-/* Featured Image */
-.featured-image-container{
-  grid-area: fi;
-  text-align: center;
-  margin-bottom: 20px;
-  padding: 0 5%;
-}
-
-.featured-image{
-  width: 100%;
-  height: auto;
 }
 
 /* Article Content */
@@ -99,6 +89,17 @@ blockquote p{
   height: 100%;
 }
 
+/* Article Body Image */
+.article-image-container{
+  width: 100%;
+  padding: 30px 2%;
+}
+
+.article-img{
+  width: 90%;
+  text-align: center;
+}
+
 /* Author Social Info */
 .article-author-social{
   display: grid;
@@ -144,76 +145,12 @@ blockquote p{
   font-size: 12px;
 }
 
-/* Author Bio Box */
-.author-box{
-  display: flex;
-  background-color: #221C35;
-  padding: 20px;
-}
-
-.img-column1{
-  display: flex;
-  flex: 20%;
-  padding: 15px;
-  align-items: center;
-  justify-content: center;
-}
-
-.bio-column2{
-  display: flex;
-  flex-direction: column;
-  flex: 80%;
-  padding: 15px;
-}
-.bio-heading{
-  font-size: 16px;
-  color: #fff;
-  text-decoration: underline;
-  margin-bottom: 0;
-}
-.bio-text{
-  color: #fff;
-}
-
 /* Bottom Share Icons */
 .social-share-below{
   display: flex;
   gap: 20px;
   align-items: center;
   margin: 20px;
-}
-
-/* Article Body Image */
-.article-image-container{
-  width: 100%;
-  padding: 30px 2%;
-}
-
-.article-img{
-  width: 90%;
-  text-align: center;
-}
-
-/* Latest Posts */
-.sidebar-widgets{
-  display: flex;
-  flex-direction: column;
-}
-
-.latest-post-heading{
-  color: #534582;
-  margin-top: 0;
-  font-size: 25px;
-}
-
-.latest-post-img{
-  width: 100%;
-}
-
-.latest-post-title{
-  font-size: 18px;
-  color: #534582;
-  margin-top: 0;
 }
 
 /* Responsive CSS */
