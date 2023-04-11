@@ -4,6 +4,7 @@
 @import url('latest-posts.css');
 
 /* Layout */
+
 .wrapper{
   display:grid;
   grid-template-columns: 100%;
@@ -28,6 +29,7 @@ article{
 }
 
 /* Author Social Heading Info */
+
 .article-author-social{
   display: grid;
   grid-template-columns: 100%;
@@ -74,6 +76,7 @@ article{
 }
 
 /* Article Content */
+
 .article-heading{
   text-align: center;
   font-size: 2.3em;
@@ -136,6 +139,7 @@ blockquote p{
 }
 
 /* Article Body Image */
+
 .article-image-container{
   width: 100%;
   padding: 30px 2%;
@@ -148,6 +152,7 @@ blockquote p{
 }
 
 /* Bottom Share Icons */
+
 .social-share-below{
   display: flex;
   gap: 20px;
@@ -156,6 +161,7 @@ blockquote p{
 }
 
 /* Responsive CSS */
+
 @media (min-width:600px){
 .wrapper {
   display: grid;
