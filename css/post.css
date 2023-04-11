@@ -160,7 +160,7 @@ blockquote p{
 }
 
 /* Latest Posts */
-.latest-post-widget{
+.latest-posts-widget{
   display: flex;
   flex-direction: column;
 }
