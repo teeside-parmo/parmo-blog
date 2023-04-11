@@ -143,26 +143,34 @@ blockquote p{
 
 /* Author Bio Box */
 .author-box{
-  background-color: #221C35;
-  padding: 30px;
-}
-
-.author-box{
   display: flex;
-  padding-top: 10px;
+  background-color: #221C35;
+  padding: 20px;
 }
 
 .img-column1{
+  display: inline-flex;
   flex: 20%;
   padding: 15px;
+  align-items: center;
 }
 
 .bio-column2{
+  display: inline-flex;
   flex: 80%;
   padding: 15px;
+  align-items: center;
 }
 .bio-text {
   color: #fff;
+}
+
+/* Bottom Share Icons */
+.social-share-below {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin: 20px;
 }
 
 /* Article Body Image */
