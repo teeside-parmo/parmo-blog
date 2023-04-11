@@ -167,7 +167,9 @@ blockquote p{
     "art sd"
     "ft ft";
   }
-  
+}
+
+@media (min-width:900px){
 article{
   padding: 20px 0 0 15em;
   }
@@ -187,5 +189,28 @@ article{
   
   .article-sub-heading{
   font-size: 1.5em;
+  }
+}
+
+@media(min-width: 600px) and (max-width: 900px){
+  article{
+  padding: 20px 0 0 2em;
+  }
+  
+.sidebar-container{
+  padding: 20px 2em 0 0;
+  }
+  
+ .article-author-social{
+  grid-template-columns: 50% 50%;
+  padding: 20px 2%;
+  }
+  
+  .article-heading{
+    font-size: 2.6em;
+  }
+  
+  .article-sub-heading{
+  font-size: 1.3em;
   }
 }
