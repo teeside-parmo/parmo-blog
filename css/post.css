@@ -85,13 +85,13 @@ blockquote p{
   padding-left: 40px;
 }
 
-.video-container {
+.video-container{
   position: relative;
   padding-bottom: 56.25%;
   margin: 20px 0;
 }
 
-.video-container iframe {
+.video-container iframe{
   position: absolute;
   top: 0;
   left: 0;
@@ -129,7 +129,7 @@ blockquote p{
   font-size: 20px;
 }
 
-.social-icon-img {
+.social-icon-img{
   width: 3em;
   height: 3em;
 }
@@ -176,7 +176,7 @@ blockquote p{
 }
 
 /* Bottom Share Icons */
-.social-share-below {
+.social-share-below{
   display: flex;
   gap: 20px;
   align-items: center;
@@ -217,7 +217,7 @@ blockquote p{
 }
 
 /* Responsive CSS */
-@media (min-width:900px){
+@media (min-width:600px){
 .wrapper {
   display: grid;
   grid-gap: 20px;
@@ -228,7 +228,16 @@ blockquote p{
     "art sd"
     "ft ft";
   }
-}
   
-
-
+article{
+  padding: 20px 0 0 10em;
+  }
+  
+.sidebar-container{
+  padding: 20px 10em 0 0;
+  }
+  
+.featured-image-container{
+  padding: 20px 10em;
+  }
+}
