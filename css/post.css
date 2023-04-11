@@ -176,10 +176,6 @@ article{
   padding: 20px 15em 0 0;
   }
   
-.featured-image-container{
-  padding: 20px 15em;
-  }
-  
  .article-author-social{
   grid-template-columns: 50% 50%;
   padding: 20px 20%;
@@ -188,6 +184,7 @@ article{
   .article-heading{
     font-size: 3em;
   }
+  
   .article-sub-heading{
   font-size: 1.5em;
   }
