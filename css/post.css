@@ -193,7 +193,7 @@ blockquote p{
 }
 
 /* Latest Posts */
-.latest-posts-widget{
+.sidebar-widgets{
   display: flex;
   flex-direction: column;
 }
