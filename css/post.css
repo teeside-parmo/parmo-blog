@@ -109,12 +109,12 @@ blockquote p{
 }
 
 .author-title{
-  font-type: italic;
+  font-style: italic;
   font-size: 12px;
 }
 
 .author-company{
-  color: #301934;
+  color: #2B361A;
   font-size: 12px;
 }
 
