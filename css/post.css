@@ -162,7 +162,12 @@ blockquote p{
   padding: 15px;
   align-items: center;
 }
-.bio-text {
+.bio-heading{
+  font-size: 16px;
+  color: #fff;
+  text-decoration: underline;
+}
+.bio-text{
   color: #fff;
 }
 
