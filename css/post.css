@@ -76,7 +76,7 @@ article{
 /* Article Content */
 .article-heading{
   text-align: center;
-  font-size: 3em;
+  font-size: 2.3em;
   color: #333;
   margin-bottom: 0;
 }
@@ -87,7 +87,7 @@ article{
 }
   
 .article-sub-heading{
-  font-size: 1.5em;
+  font-size: 1.2em;
   text-align: center;
   color: #3e3e3e;
 }
@@ -183,5 +183,12 @@ article{
  .article-author-social{
   grid-template-columns: 50% 50%;
   padding: 20px 20%;
+  }
+  
+  .article-heading{
+    font-size: 3em;
+  }
+  .article-sub-heading{
+  font-size: 1.5em;
   }
 }
