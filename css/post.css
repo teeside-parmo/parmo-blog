@@ -79,6 +79,10 @@ blockquote p{
   display: inline;
 }
 
+.back-link{
+  padding-left: 40px;
+}
+
 /* Author Social Info */
 .article-author-social{
   display: grid;
