@@ -1,0 +1,31 @@
+body{
+  display: grid; 
+  grid-template-columns: 1fr minmax(auto, 30em) 1fr;
+  min-height: 100vh; 
+  place-items: center;
+  background: linear-gradient(135deg, hsl(180, 70%, 50%), hsl(200, 75%, 25%));
+  justify-items: stretch
+}
+
+input, button{
+  font: inherit;
+  border: 0;
+  &:focus {
+    outline: none;
+  }
+}
+
+form{
+  display: flex; 
+  grid-column: 2;
+}
+
+input{
+  flex-grow: 1;
+  padding: 0.5em 0.75em;
+}
+
+button{
+  padding: 0.5em 0.75em;
+  background: hsl(130, 75%, 75%); 
+}
