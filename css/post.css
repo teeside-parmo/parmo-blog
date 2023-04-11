@@ -124,6 +124,27 @@ blockquote p{
   font-size: 12px;
 }
 
+/* Author Bio Box */
+.author-box{
+  background-color: #221C35;
+  padding: 30px;
+}
+
+.author-box{
+  display: flex;
+  padding-top: 10px;
+}
+
+.img-column1{
+  flex: 20%;
+  padding: 15px;
+}
+
+.bio-column2{
+  flex: 80%;
+  padding: 15px;
+}
+
 /* Article Body Image */
 .article-image-container{
   width: 100%;
@@ -140,6 +161,7 @@ blockquote p{
   display: flex;
   flex-direction: column;
 }
+
 .latest-post-heading{
   color: #534582;
   margin-top: 0;
