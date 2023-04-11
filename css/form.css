@@ -2,7 +2,7 @@
 @import url('top-nav.css');
 @import url('index-layout.css');
 
-.form-subscribe{
+.subscribe-form{
   display: grid; 
   grid-template-columns: 1fr minmax(auto, 30em) 1fr;
   min-height: 100vh; 
