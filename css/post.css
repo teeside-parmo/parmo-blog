@@ -207,7 +207,7 @@ blockquote p{
 }
 
 .latest-post-img{
-  max-width: 280px;
+  width: 100%;
 }
 
 .latest-post-title{
