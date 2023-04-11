@@ -21,12 +21,14 @@
   padding: 15px;
   text-align: center;
 }
+
 .bio-heading{
   font-size: 16px;
   color: #fff;
   text-decoration: underline;
   margin-bottom: 0;
 }
+
 .bio-text{
   color: #fff;
 }
@@ -36,6 +38,7 @@
 .author-box{
   flex-direction: row;
   }
+  
 .bio-column2{
   text-align: left;
   }
